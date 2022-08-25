@@ -1,0 +1,25 @@
+{
+  "name": "graphql-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.1",
+    "apollo-server": "^3.10.1",
+    "apollo-server-core": "^3.10.1",
+    "apollo-server-express": "^3.10.1",
+    "graphql-upload": "^16.0.1",
+    "make-dir": "^3.1.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "type": "module"
+}
